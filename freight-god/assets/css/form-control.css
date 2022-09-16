@@ -1,0 +1,177 @@
+/*******************
+	Form Elements  Start 
+***********************************/
+
+
+/***** Place Holder *****/
+::-webkit-input-placeholder { color:inherit !important; }
+:-moz-placeholder { color: inherit !important;}
+.form-control::-moz-placeholder { color: inherit !important; opacity: 0.5; }
+:-ms-input-placeholder { color: inherit !important; }
+form .form-control::placeholder,
+.form-control::placeholder { color: inherit !important; opacity: 0.5; }
+
+
+/***** Number Filed Spin *****/
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+input[type="number"] { -moz-appearance: textfield; }
+input[type="number"]:hover{ -moz-appearance: textfield; }
+
+
+
+/***** Custom Check Box *****/
+/* .checkbox {display: block;position: relative;padding: 1px 0 0 35px;margin-bottom: 0;margin-top: 3px;cursor: pointer;;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;color: #999999; font-weight: 400; font-family:'Poppins', sans-serif;  }
+.checkbox label{ color: #999999 !important; padding-left: 0px !important; font-weight: 500 !important;;}
+.checkbox input {position: absolute;opacity: 0;cursor: pointer;height: 0;width: 0 !important;}
+
+.checkbox .checkmark {position: absolute;top: 4px;left: 0px;height: 18px;width: 18px;border: 1px solid #ffffff;border-radius: 5px; background-color: #ffffff; border: 1px solid #999999; box-shadow: 0px 0px 10px rgb(0 0 0 / 10%); }
+.checkbox input:checked ~ .checkmark {}
+.checkbox .checkmark:after {content: "";position: absolute;display: none;}
+.checkbox input:checked ~ .checkmark:after {display: block;}
+.checkbox .checkmark:after {left: 0px;top: 2px;width: 5px;height: 10px;border: solid #FF0000;border-width: 0 2px 2px 0;-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);right: 0;margin: 0 auto;} */
+
+
+
+/***** Custom Check Box (Bootstrap Style) *****/
+.form-check { display: block; min-height: 1.5rem; padding-left: 1.5em; margin-bottom: 0.125rem; position: relative; cursor: pointer; color: #E19F42; }
+.form-check label{ padding-left: 7px; padding-top: 3px; color: #E19F42; }
+.form-check-input { width: 18px; height: 18px; background-color: #fff; border: 1px solid #999; }
+.form-check-input:checked[type=checkbox]{ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23F8E3CC' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e") }
+.form-check-input:checked {  background-color: #E19F42;  border-color: #E19F42; }
+.form-check-input:focus { border-color: transparent; outline: 0; box-shadow:none; }
+
+/***** Input Field *****/
+form label { font-size: 15px; color: #999999; font-weight: 500; padding-left: 20px;  }
+
+form .form-control,
+.form-control,
+textarea,
+select {font-size:16px;  background: #FBFBFB; border:1px solid #EEEEEE; color: #222222; font-weight: 500; transition: all 0.6s ease 0s; padding: 15px 20px; line-height:1.5; border-radius: 10px; width:100%; outline:none;  box-shadow:0px 3px 6px  rgba(196, 191, 191, 0.1); height: auto; }
+
+.form-control:focus,
+textarea:focus{ outline-offset: -2px; -webkit-appearance: none; box-shadow: 0px 0px 10px rgb(0 0 0 / 10%); outline: none; border: 1px solid #B8B9BC; color: #999999; }
+
+textarea.form-control { height: auto; resize: none; border-radius: 10px; }
+
+select,
+select.form-control { font-size: 16px; font-weight: 500;  border: 1px solid #707070; -webkit-appearance:none; appearance:none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; background-color: transparent; padding: 0 20px 0 20px; color: #666666; transition: all 0.6s ease 0s; height: 55px !important;}
+select option{ color: #000000;}
+select.form-control:focus,
+select:focus{ background-color: transparent; border-color: #333333; color: #666666;}
+
+.form-control:disabled, .form-control[readonly] {opacity: 1;background: transparent; border: transparent ; color:#333333; box-shadow: none;}
+
+form .position-relative .form-control { padding-right: calc(50px + 0px); }
+
+
+/***** Buttons*****/	
+.btn { font-family: "Gilroy", sans-serif;  color: #fff; cursor: pointer; padding: 15px 45px; font-size: 16px; font-weight: bold; transition: all 0.6s ease 0s; text-transform: capitalize; line-height: normal; border-radius: 50px;text-align:center; display:inline-block;  border:2px solid transparent;  }
+.btn:focus,
+.btn:hover { outline: none; text-decoration:none; box-shadow: none; }
+
+.btn-primary { color: #ffffff; background: #A7A7A7; border-width: 1px; }
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary.active { background-color: #212121; color: #ffffff;  border-color: #212121; }
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active{ color: #ffffff; background-color: #212121;  border-color: #212121; outline: none; box-shadow: none;}
+
+
+.btn-secondary {color: #fff; background: #E19F42; border-color: #E19F42; }
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary.focus,
+.btn-secondary.active{ background-color: transparent; color: #E19F42; border-color: #E19F42; }
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active { color: #E19F42; background-color: transparent;  border-color: #E19F42; outline: none; box-shadow: none; }
+
+
+.btn-outline-secondary { color: #E19F42; background: transparent; border-color:#E19F42;   }
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus,
+.btn-outline-secondary.focus,
+.btn-outline-secondary.active { background-color: #E19F42; color: #ffffff;  border-color: #E19F42
+	; }
+.btn-outline-secondary:not(:disabled):not(.disabled):active:focus,
+.btn-outline-secondary:not(:disabled):not(.disabled).active,
+.btn-outline-secondary:not(:disabled):not(.disabled):active{ color: #ffffff; background-color: #E19F42;  border-color: #E19F42; outline: none; box-shadow: none;}
+
+
+
+.btn-outline-white { color: #ffffff; background: transparent; border-color:#ffffff; border-width: 2px; border-radius: 10px;  }
+.btn-outline-white:hover,
+.btn-outline-white:focus,
+.btn-outline-white.focus,
+.btn-outline-white.active { background-color: #ffffff; color: #6E3D18;  border-color: #ffffff; }
+
+.btn-outline-white:not(:disabled):not(.disabled):active:focus,
+.btn-outline-white:not(:disabled):not(.disabled).active,
+.btn-outline-white:not(:disabled):not(.disabled):active{ color: #6E3D18; background-color: #ffffff;  border-color: #ffffff; outline: none; box-shadow: none;}
+
+
+.btn-white{ color: #6E3D18; background: #ffffff; border-color:#ffffff; border-width: 2px; border-radius: 10px; }
+.btn-white:hover,
+.btn-white:focus,
+.btn-white.focus { color: #fff; background-color: transparent; border-color: #ffffff; }
+.btn-white:not(:disabled):not(.disabled):active:focus,
+.btn-white:not(:disabled):not(.disabled).active,
+.btn-white:not(:disabled):not(.disabled):active{ color: #fff; background-color: transparent; border-color: #fff; }
+
+
+
+
+/* .btn-lightgray{ color: #ffff; background: #D5D5D5; border-color:#D5D5D5; }
+.btn-lightgray:hover,
+.btn-lightgray:focus,
+.btn-lightgray.focus { color: #fff; background-color: #B2B2B6; border-color: #B2B2B6; }
+.btn-lightgray:not(:disabled):not(.disabled):active:focus,
+.btn-lightgray:not(:disabled):not(.disabled).active,
+.btn-lightgray:not(:disabled):not(.disabled):active{ color: #fff; background-color: #B2B2B6; border-color: #B2B2B6; } */
+
+
+/***** Password Vissible Button *****/
+form button.view-btn i {position: initial;transition: .3s ease-in-out;color: #B8B8B8; font-size: 16px; margin-bottom: 0px;}
+form button.view-btn:focus {background: transparent !important;}
+form button.view-btn {border: 0; background: transparent; padding: 0; top: 50%; right: 20px; /*margin-top: -8px;*/ transform: translateY(-50%);   outline:none; line-height: 1;}
+form button.view-btn:hover i {color: #E19F42;}
+
+/*****  Select Box With ( font Owesome )  Arrow *****/
+.select-wrapper { position: relative; display: inline-block;  }
+.select-wrapper select.form-control{ -moz-appearance: none;  -webkit-appearance: none; border: 1px solid #E0E0E0; padding-right: 25px;}
+.select-wrapper:after {font-family: "Font Awesome 5 Free";content: '\f078'; font-size: 14px; color:#999999; width: 10px; height: 10px; display: inline-flex; align-items: center; font-weight: 900; position: absolute; right: 16px; top: 50%; margin-top:-3px; pointer-events: none; 
+/* border-left: 5px solid transparent; border-right: 5px solid transparent;  border-top: 6px solid #666;*/ }
+
+
+/***** Custom Radio Button *****/
+
+.form-check.radio-input{}
+
+.radio-input .form-check-label{ font-size: 17px; font-weight: 400; color: #A1A1A1; padding-left: 0px; }
+
+.radio-input .form-check-input{
+	border: 1px solid #707070;
+}
+.radio-input .form-check-input:checked{
+	background-color: #222;
+    border-color: #222;
+}
+.radio-input .form-check-input:checked[type=radio]{}
+
+
+.radio { margin:15px 0; }
+.radio label{ margin-bottom:0px; font-size:15px; color:#999999; font-weight:500; line-height:1.1; }
+.radio input[type="radio"] { position: absolute; opacity: 0; }
+.radio input[type="radio"] + .radio-label:before { font-size:14px; content: ''; background: #f4f4f4; border-radius: 100%; border: 1px solid #b4b4b4;  display: inline-block;  width: 1.4em; height: 1.4em;  position: relative;  top: -0.2em;  margin-right: 1em;  vertical-align: middle;  cursor: pointer;  text-align: center;  -webkit-transition: all 250ms ease;  transition: all 250ms ease; }
+.radio input[type="radio"]:checked + .radio-label:before { background-color: #000000; box-shadow: inset 0 0 0 4px #f4f4f4; }
+.radio input[type="radio"]:focus + .radio-label:before { outline: none;  border-color: #000000; }
+.radio input[type="radio"]:disabled + .radio-label:before { box-shadow: inset 0 0 0 4px #f4f4f4; border-color: #b4b4b4;  background: #b4b4b4; }
+.radio input[type="radio"] + .radio-label:empty:before {  margin-right: 0;}
+
+/*******************
+	Form Elements  End
+***********************************/

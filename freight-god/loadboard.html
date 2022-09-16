@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en" data-textdirection="ltr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <title>FREIGHT GOD | Load Board </title>
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->    
+    <link href="assets/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css" />
+    <!-- Fontawesome -->
+   <link rel="stylesheet" href="assets/vendors/fontawesome/css/fontawesome-free-6.1.1.min.css">
+    <!-- Animate Css -->    
+    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+    <!-- Fonts Css -->
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <!-- Theme Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/utilities.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/form-control.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/components.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+<header id="header" class="login-header w-100 z-inxed-2">
+    <nav class="navbar navbar-light navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand text-start" href="index.html">
+                <img src="assets/images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="main-nav-wrap offcanvas offcanvas-start align-self-center align-self-xl-center pt-3 pt-lg-0" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body ms-lg-auto nav-bg main-nav">
+                    <ul class="navbar-nav ms-auto ms-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="loadboard.html">Loadboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blogs.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<section class="page-content loadboard-page">
+    <div class="container">
+        <div class="row mb-3 justify-content-end">
+            <div class="col-lg-9">
+                <div class="row">
+                    <div class="col-12 col-lg-8 align-self-center mb-3 mb-sm-0">
+                        <h2 class="page-title text-black text-start mb-0 wow animate__flipInX fw-semibold text-uppercase" data-wow-delay="0.1s">Live Loads</h2>
+                    </div>
+                    <div class="col-12 col-lg-4 user-listing-top d-flex justify-content-end">
+                        <div class="filter-wrap d-flex align-items-center">
+                            <label class="d-inline-block fw-bold me-2 flex-shrink-0 text-black">Showing</label>
+                            <div class="select-wrapper d-block w-auto">
+                                <select name="" class="form-control" id="">
+                                    <option value="">All</option>
+                                    <option value="">Sort By Latest</option>
+                                    <option value="">Sort By Popularity</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4 col-xl-3 mb-4 mb-md-0">
+                <div class="loadboard-sidebar">
+                    <div class="widget load-filter">
+                        <form>
+                            <a href="#" class="btn btn-filter btn-outline-secondary fw-semibold d-block"><i class="fa fa-plus-circle me-3"></i> Post a Load</a>
+                            <div class="d-flex justify-content-between mt-4 border-bottom-orange pb-2 mb-0">
+                                <h4 class="text-gold mb-0">Filter</h4>
+                                <a href="#" class="clear-filter">Clear All</a>
+                            </div>
+                            <div class="form-group mb-0 border-bottom-orange py-3 py-lg-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Expired
+                                    </label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="widget location-filter">
+                        <div class="accordion mt-3" id="accordionExample">
+                            <div class="accordion-item mb-0">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Location
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body py-0 px-0 px-xl-2 mt-2">
+                                        <div class="d-block position-relative mb-2">
+                                            <label for="upload" class="d-block">From</label>
+                                            <div class="select-wrapper d-block">
+                                                <select name="" id="" class="form-control">
+                                                    <option value="">Select Location</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="d-block position-relative">
+                                            <label for="upload" class="d-block">To</label>
+                                            <div class="select-wrapper d-block">
+                                                <select name="" id="" class="form-control">
+                                                    <option value="">Select Location</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="d-block position-relative mt-2 text-end">
+                                            <a href="#" class="clear-filter">Clear</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-8 col-xl-9">
+                <div class="row wow animate__fadeIn fw-semibold" data-wow-delay="0.1s">
+                    <div class="col-12 detail-block">
+                        <div class="card shadow-sm bookingload-detail rounded-20 mb-4 px-3 px-xl-4 py-3 py-xl-4 border wow animate__fadeInUp" data-wow-delay="0.1s">
+                            <div class="row">
+                                <div class="col-12 col-lg-12 col-xl-3 bookingload-col border-end">
+                                    <div class="px-0 px-xxl-2 py-2">
+                                        <p>Shipment ID: 159034</p>
+                                        <p class="mt-1 mt-xl-5 pt-1 pt-xl-2">From: Pickup Location</p>
+                                        <p>To: Drop off Location</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-12 col-xl-5 bookingload-col border-end">
+                                    <div class="px-0 px-xxl-3 py-2">
+                                        <p>Pickup: 06: 00 (CDT) mm/dd/yyyy</p>
+                                        <p>Deliver : 06: 00 (CDT) mm/dd/yyyy</p>
+                                        <div class="row mt-4">
+                                            <div class="col-12 col-lg-6 col-xl-4">
+                                                <p>Distance:</p>
+                                            </div>
+                                            <div class="col-12 col-lg-6 col-xl-8">
+                                                <p>1219 miles</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6 col-xl-4">
+                                                <p>Weight:</p>
+                                            </div>
+                                            <div class="col-12 col-lg-6 col-xl-8">
+                                                <p>6500 lb</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6 col-xl-4">
+                                                <p>Items:</p>
+                                            </div>
+                                            <div class="col-12 col-lg-6 col-xl-8">
+                                                <p>4</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-12 col-xl-4 text-center pt-3 pt-xl-0">
+                                    <img src="assets/images/icon-ven.png" alt="" class="img-fluid mb-3">
+                                    <p>Posted By: Shipper A</p>
+                                    <p class="text-green">Expires On:mm/dd/yyy</p>
+                                    <a href="loadboard-view.html" class="btn view-btn fw-semibold mt-3"><i class="fa fa-eye me-2"></i> View</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card shadow-sm bookingload-detail rounded-20 mb-4 px-4 py-4 px-lg-4 py-lg-4 border wow animate__fadeInUp" data-wow-delay="0.2s">
+                            <div class="row">
+                                <div class="col-12 col-lg-12 col-xl-3 bookingload-col border-end">
+                                    <div class="px-0 px-xxl-2 py-2">
+                                        <p>Shipment ID: 159034</p>
+                                        <p class="mt-1 mt-xl-5 pt-1 pt-xl-2">From: Pickup Location</p>
+                                        <p>To: Drop off Location</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-12 col-xl-5 bookingload-col border-end">
+                                    <div class="px-0 px-xxl-3 py-2">
+                                        <p>Pickup: 06: 00 (CDT) mm/dd/yyyy</p>
+                                        <p>Deliver : 06: 00 (CDT) mm/dd/yyyy</p>
+                                        <div class="row mt-4">
+                                            <div class="col-12 col-lg-6 col-xl-4">
+                                                <p>Distance:</p>
+                                            </div>
+                                            <div class="col-12 col-lg-6 col-xl-8">
+                                                <p>1219 miles</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6 col-xl-4">
+                                                <p>Weight:</p>
+                                            </div>
+                                            <div class="col-12 col-lg-6 col-xl-8">
+                                                <p>6500 lb</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6 col-xl-4">
+                                                <p>Items:</p>
+                                            </div>
+                                            <div class="col-12 col-lg-6 col-xl-8">
+                                                <p>4</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-12 col-xl-4 text-center pt-3 pt-xl-0">
+                                    <img src="assets/images/icon-ven.png" alt="" class="img-fluid mb-3">
+                                    <p>Posted By: Shipper A</p>
+                                    <p class="text-green">Expires On:mm/dd/yyy</p>
+                                    <a href="loadboard-view.html" class="btn view-btn fw-semibold mt-3"><i class="fa fa-eye me-2"></i> View</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card shadow-sm bookingload-detail rounded-20 mb-4 px-4 py-4 px-lg-4 py-lg-4 border wow animate__fadeInUp" data-wow-delay="0.3s">
+                            <div class="row">
+                                <div class="col-12 col-lg-12 col-xl-3 bookingload-col border-end">
+                                    <div class="px-0 px-xxl-2 py-2">
+                                        <p>Shipment ID: 159034</p>
+                                        <p class="mt-1 mt-xl-5 pt-1 pt-xl-2">From: Pickup Location</p>
+                                        <p>To: Drop off Location</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-12 col-xl-5 bookingload-col border-end">
+                                    <div class="px-0 px-xxl-3 py-2">
+                                        <p>Pickup: 06: 00 (CDT) mm/dd/yyyy</p>
+                                        <p>Deliver : 06: 00 (CDT) mm/dd/yyyy</p>
+                                        <div class="row mt-4">
+                                            <div class="col-12 col-lg-6 col-xl-4">
+                                                <p>Distance:</p>
+                                            </div>
+                                            <div class="col-12 col-lg-6 col-xl-8">
+                                                <p>1219 miles</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6 col-xl-4">
+                                                <p>Weight:</p>
+                                            </div>
+                                            <div class="col-12 col-lg-6 col-xl-8">
+                                                <p>6500 lb</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6 col-xl-4">
+                                                <p>Items:</p>
+                                            </div>
+                                            <div class="col-12 col-lg-6 col-xl-8">
+                                                <p>4</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-12 col-xl-4 text-center pt-3 pt-xl-0">
+                                    <img src="assets/images/icon-ven.png" alt="" class="img-fluid mb-3">
+                                    <p>Posted By: Shipper A</p>
+                                    <p class="text-green">Expires On:mm/dd/yyy</p>
+                                    <a href="loadboard-view.html" class="btn view-btn fw-semibold mt-3"><i class="fa fa-eye me-2"></i> View</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card shadow-sm bookingload-detail rounded-20 mb-4 px-4 py-4 px-lg-4 py-lg-4 border wow animate__fadeInUp" data-wow-delay="0.4s">
+                            <div class="row">
+                                <div class="col-12 col-lg-12 col-xl-3 bookingload-col border-end">
+                                    <div class="px-0 px-xxl-2 py-2">
+                                        <p>Shipment ID: 159034</p>
+                                        <p class="mt-1 mt-xl-5 pt-1 pt-xl-2">From: Pickup Location</p>
+                                        <p>To: Drop off Location</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-12 col-xl-5 bookingload-col border-end">
+                                    <div class="px-0 px-xxl-3 py-2">
+                                        <p>Pickup: 06: 00 (CDT) mm/dd/yyyy</p>
+                                        <p>Deliver : 06: 00 (CDT) mm/dd/yyyy</p>
+                                        <div class="row mt-4">
+                                            <div class="col-12 col-lg-6 col-xl-4">
+                                                <p>Distance:</p>
+                                            </div>
+                                            <div class="col-12 col-lg-6 col-xl-8">
+                                                <p>1219 miles</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6 col-xl-4">
+                                                <p>Weight:</p>
+                                            </div>
+                                            <div class="col-12 col-lg-6 col-xl-8">
+                                                <p>6500 lb</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6 col-xl-4">
+                                                <p>Items:</p>
+                                            </div>
+                                            <div class="col-12 col-lg-6 col-xl-8">
+                                                <p>4</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-12 col-xl-4 text-center pt-3 pt-xl-0">
+                                    <img src="assets/images/icon-ven.png" alt="" class="img-fluid mb-3">
+                                    <p>Posted By: Shipper A</p>
+                                    <p class="text-red">Expired</p>
+                                    <a href="loadboard-view.html" class="btn view-btn fw-semibold mt-3"><i class="fa fa-eye me-2"></i> View</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 wow animate__fadeIn" data-wow-delay="0.8s">
+                        <div class="row mt-2 mt-md-2">
+                            <div class="col-sm-12 col-md-5 mb-3 mb-md-0 align-self-center text-center text-md-start">
+                                <div class="dataTables_info pl-2">Showing 1 to 3 of 3 entries</div>
+                            </div>
+                            <div class="col-sm-12 col-md-7 d-flex justify-content-center justify-content-md-end">
+                                <div class="dataTables_paginate">
+                                    <ul class="pagination">
+                                        <li class="paginate_button page-item previous disabled"><a href="#" class="page-link">Previous</a></li>
+                                        <li class="paginate_button page-item active"><a href="#" class="page-link">01</a></li>
+                                        <li class="paginate_button page-item"><a href="#" class="page-link">02</a></li>
+                                        <li class="paginate_button page-item"><a href="#" class="page-link">03</a></li>
+                                        <li class="paginate_button page-item"><a href="#" class="page-link">04</a></li>
+                                        <li class="paginate_button page-item next disabled" i=""><a href="#" class="page-link">Next</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="footer" class="position-relative">
+    <div class="footer-widgets">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="widget image-widget text-center w-100">
+                        <div class="w-100">
+                            <img src="assets/images/footer-logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 align-items-center mb-0 mb-md-0 border-end border-black">
+                    <div class="widget text-center py-4">
+                        <h3 class="widget-title mb-4">Address</h3>
+                        <div class="w-100">
+                            <p class="mt-4 fw-medium mb-0">7500 Lorem ipsum dolor sit amet consectetur elit 72903</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 border-end border-black">
+                    <div class="widget newsletter text-center py-4">
+                        <h3 class="widget-title fw-bold mb-4">Get Connected</h3>
+                        <div class="social-icons">
+                            <a href="javascript:void(0)"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
+                            <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="widget contact-info text-center py-4">
+                        <h3 class="widget-title mb-4">Contact</h3>
+                        <ul>
+                            <li class="email text-center">
+                                <p class="fw-medium"><a href="tel:2545984068">123 456 7890</a></p>
+                            </li>
+
+                            <li class="livechat_url text-center">
+                                <p class="fw-medium"><a href="mailto:info@advacap.com">info@example.com</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 text-center info py-3">
+                    <address>Copyright &copy; 2022 <a href="#">Freight God</a> - All Rights Reserved.</address>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Jquery -->
+<script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
+<!-- Bootstarp Bundle-->
+<script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Owl Carousel -->
+<script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
+<!-- Wow Js-->
+<script type="text/javascript" src="assets/vendors/wow/js/wow.min.js"></script>
+<!-- Custom Theme Function -->
+<script type="text/javascript" src="assets/js/function.js"></script>
+</body>
+</html>

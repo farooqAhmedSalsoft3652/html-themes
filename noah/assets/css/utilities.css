@@ -1,0 +1,105 @@
+/*******************
+	General Calsses Start  
+***********************************/
+
+
+.mt-n3 { margin-top: -1.5rem !important;  }
+
+.mx-n2{ margin-right: -0.5rem !important;  margin-left: -0.5rem !important; }
+.mt-6 { margin-top: 4rem !important; }
+.mt-7 { margin-top: 5rem !important; }
+.mt-8 { margin-top: 6rem !important; }
+
+.mb-6 {margin-bottom: 4rem !important; }
+.mb-7 { margin-bottom: 5rem !important; }
+.mb-8 { margin-bottom: 6rem !important; }
+
+
+.shadow { box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.15) !important; }
+.shadow-sm { box-shadow: 0 10px 40px 0 rgb(165 165 165 / 8%), 0 2px 9px 0 rgb(6 6 6 / 15%)  !important; }
+
+
+.p-lg-6{padding: 4rem;}
+
+.text-primary { color: #333333 !important; }
+.text-secondary { color: #A1A1A1 !important;  }
+.text-danger { color: #ff0000 !important; }  
+.text-gold { color: #C8AA61 !important; }
+.text-light { color: #A1A1A1 !important;  }
+.text-black { color: #000000 !important;  }
+.text-green { color: #2FC403 !important;  }
+.text-darkgreen { color: #0D7801 !important;  }
+.text-red { color: #F30101 !important; }  
+.text-orange { color: #F96C00 !important; }  
+.text-lightred { color: #DF0000 !important; }
+.text-lightblue { color: #03B0C4 !important; }
+
+
+.path-fill-white svg path{ fill: #fff  !important;}
+
+
+.text-underline { text-decoration: underline;  }
+
+
+
+
+/* .rounded {border-radius: 10px !important;}
+.rounded {border-radius:49px !important;} */
+
+.rounded-10 { border-radius: 10px !important;  } 
+.rounded-20 { border-radius: 20px;  }
+.rounded-30 { border-radius: 30px;  }
+
+
+  
+  
+.bg-light { background: #F9F9F9 !important; }
+.bg-light2{ background:#EEEEEE;}
+
+
+.height-150{ height:150px;}
+.height-500 { height: 500px !important; }
+.height-390 { height: 390px !important; }
+.height-450 { height: 450px !important; }
+
+.width-160 { width: 160px !important;}
+.width-180 { width: 180px !important;}
+.width-300 { width: 300px !important;}
+.min-width-150 { min-width: 150px !important;}
+.min-width-160 { min-width: 160px !important;}
+.width-35 { width: 35% !important;}
+.width-65 { width: 65% !important; }
+
+.z-inxed-1 {  z-index: 1;}
+.z-inxed-2 {  z-index: 2; }
+
+
+.fw-light { font-weight: 300 !important;  }
+.fw-regular{ font-weight: 400 !important;}
+.fw-medium { font-weight: 500 !important;  }
+.fw-semibold { font-weight: 600 !important;   }
+.fw-bold { font-weight: bold !important; }
+.fw-exbold { font-weight: 800 !important;  }
+.fw-black { font-weight: 900 !important;  }
+.fw-heavy { font-weight: 900 !important;  }
+
+
+.border{  border: 1px solid #dee2e6!important;}
+.border-dark{ border-color: #333 !important;}
+.border-light { border: 1px solid #c5c5c5 !important; }
+.border-top{ border-top: 1px solid #dee2e6 !important; }
+.border-bottom{ border-bottom: 1px solid #dee2e6 !important; }
+
+
+.btn.btn-sm{ padding-left:30px; padding-right:30px; }
+
+.inline-link{ color: #333333; font-weight: 600; font-size: 14px; text-decoration: underline;}
+.inline-link:hover{ color: #C7A85F;}
+
+
+
+
+
+/*******************
+	General Calsses End   
+***********************************/
